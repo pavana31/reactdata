@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { times } from 'async';
 import App from './App';
-import Donut from './components/navbar/DonutChart';
+// import Donut from './components/navbar/DonutChart';
 
 test('renders learn react link', () => {
   render(<App />);
