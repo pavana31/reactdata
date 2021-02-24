@@ -9,8 +9,9 @@ export const useD3 = (renderChartFn, dependencies) => {
     // return () => {};
     return () => {
       d3.select(ref.current).selectAll("path").remove();
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       d3.select(ref.current).selectAll("g").remove();
     };
-  }, dependencies);
+  }, [renderChartFn]);
   return ref;
 };
