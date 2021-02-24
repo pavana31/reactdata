@@ -1,0 +1,13 @@
+
+
+exports[`D3 homepage`] = `
+<div
+  className="maincontent"
+>
+<div>
+ <h2 
+ className="main-text" 
+ />
+</div>
+</div>
+`;

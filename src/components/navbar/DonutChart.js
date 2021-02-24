@@ -68,7 +68,7 @@ useEffect(() => {
         style={{fontFamily:"inherit", color:"#4B0082", fontSize:"25px", marginTop:"0.5rem",marginLeft:"12%"}}>
           {data[0]?.score}%</div>
         
-      <div  onClick={() => onClick(data[0]?.name)} className="card-body">
+      <div role="info"  onClick={() => onClick(data[0]?.name)} className="card-body">
           <button className="circle">
           <svg  
             ref={ref}
