@@ -17,7 +17,7 @@ export default function Home() {
   const itemObj = {};
   // const [areaData, setAreaData] = useState(Data["areaData"]["Quality Score"]);
   const [areaDataName, setAreaDataName] = useState("Quality Score");
-  const [areaData, setAreaData] = useState(Data["areaData"]);
+  const [areaData] = useState(Data["areaData"]);
 
   const [tempname,setName] = useState("");
   

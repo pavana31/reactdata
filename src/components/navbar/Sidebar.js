@@ -8,9 +8,9 @@ import './Sidebar.css';
 import { IconContext } from 'react-icons';
 import Home from './Home';
 function Sidebar() {
-  const [sidebar, setSidebar] = useState(true);
+  const [sidebar] = useState(true);
 
-  const showSidebar = () => setSidebar(!sidebar);
+ 
 
   return (
     <>

@@ -1,20 +1,16 @@
 import { useD3 } from "./hooks/useD3";
-import React, {useState, useEffect} from "react";
+import React from "react";
 import * as d3 from "d3";
 import './Donut.css';
 
 
-function DonutChart({ data, option, onClick }) {
-  const [donutData, setDonutData] = useState(data);
-  
-useEffect(() => {
-    setDonutData(data);
-  }, [data]);
+function DonutChart({ data, onClick }) {
+
  
   const ref = useD3(
     (svg) => {
       const dataFromState = data;
-// console.log(donutData, option);
+
       const height = 100,
         width = 100,
         margin = 2;
@@ -33,11 +29,6 @@ useEffect(() => {
 
       const path = d3.arc().outerRadius(radius).innerRadius(40);
 
-      // const label = d3
-      //   .arc()
-      //   .outerRadius(radius)
-      //   .innerRadius(radius - 10);
-   
 
       const pies = g
         .selectAll(".arc")
@@ -68,7 +59,7 @@ useEffect(() => {
         style={{fontFamily:"inherit", color:"#4B0082", fontSize:"25px", marginTop:"0.5rem",marginLeft:"12%"}}>
           {data[0]?.score}%</div>
         
-      <div role="info"  onClick={() => onClick(data[0]?.name)} className="card-body">
+      <div onClick={() => onClick(data[0]?.name)} className="card-body">
           <button className="circle">
           <svg  
             ref={ref}
