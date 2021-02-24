@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 20%;
+}
+.App1 {
+  height: 100vh;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  /* background: rgb(41, 40, 40); */
+  /* background: rgb(255, 249, 249); */
+}
+.maincontent {
+  margin-left: 4%;
+}
+.main-text {
+  margin-left: 20%;
+  font-family: initial, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,77 @@
+svg {
+  padding: 1rem;
+}
+.btn {
+  color: white;
+  background-color: rgb(22, 22, 93);
+}
+
+#area {
+  background-color: linear-gradient(to top right, #00ff99 0%, #00ffcc 100%);
+}
+.tranparentheading {
+  background-color: rgb(182, 182, 179);
+  opacity: 0.5;
+  padding: 0.5rem;
+}
+.reverse {
+  width: 100%;
+  margin-left: 50%;
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: middle;
+  color: black;
+}
+.nav1 {
+  margin-left: 2%;
+  width: 40%;
+  height: -1px;
+  font-size: 12px;
+  color: black;
+}
+.navbar1 {
+  background-color: rgb(182, 182, 179);
+  opacity: 0.5;
+  padding: 0.2rem;
+  height: 50px;
+  display: flex;
+  color: black;
+  /* justify-content: start; */
+  align-items: flex-end;
+}
+.pheading {
+  color: black;
+}
+.pin {
+  margin-left: 35rem;
+}
+.border {
+  border: 1px;
+}
+
+.circle {
+  padding: 0.5rem;
+  margin-left: -1.2rem;
+  margin-top: 1rem;
+}
+button:hover {
+  background-color: rgba(92, 216, 35, 0.342);
+}
+.column {
+  float: right;
+  width: 70%;
+  padding: 10px;
+  height: 300px;
+}
+.column2 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 300px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-top: 12rem;
+}
