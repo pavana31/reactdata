@@ -12,6 +12,7 @@ export const useD3 = (renderChartFn, dependencies) => {
       // eslint-disable-next-line react-hooks/exhaustive-deps
       d3.select(ref.current).selectAll("g").remove();
     };
-  }, [renderChartFn]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, dependencies);
   return ref;
 };
