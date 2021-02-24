@@ -1,12 +1,4 @@
-https://www.mattlayman.com/blog/2015/d3js-area-chart/
 
-https://pganalyze.com/blog/building-svg-components-in-react
-
-https://gist.github.com/chularansi/42bbab4820a0545d92bc55983228b634
-https://www.creativebloq.com/how-to/boost-d3js-charts-with-svg-gradients
-https://codepen.io/adeveloperdiary/pen/MyrWPd
-https://developer.aliyun.com/mirror/npm/package/react-d3-components
-http://codesuki.github.io/react-d3-components/example.html?spm=a2c6h.14275010.0.0.6e7a6718rhV25h
 
 # Getting Started with Create React App
 
